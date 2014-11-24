@@ -1,0 +1,82 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	font-family: sans-serif;
+}
+#basicMap {
+	width: 100%;
+	height: 100%;
+}
+input[type=button]{
+	background-color: #4d90fe;
+	background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+	border: 0;
+	border-radius: 0 2px 2px 0;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+	height: 24px;
+	text-align: center;
+	color: whitesmoke;
+	width: 90px;
+	z-index: -1;
+	margin: 1.5px;
+	outline: none;
+}
+
+input[type=button]:active{
+	background-color: #00FFFF;
+	border: 0;
+	border-radius: 0 2px 2px 0;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+	height: 24px;
+	text-align: center;
+	color: whitesmoke;
+	width: 90px;
+	z-index: -1;
+	margin: 1.5px;
+	outline: #00FFFF inset medium;
+}
+
+.active {
+	color:red;
+}
+
+.geoloc, #address{
+	border: 1px solid #ccc;
+	border-radius: 0 2px 2px 0;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+header{
+	position:absolute;
+	top:60px;
+	left:-96px;
+	width:94px;
+	background-color: #ffffff;
+	opacity:0.6;
+	filter:alpha(opacity=60);
+	z-index: 750;
+	/*height: 190px;*/
+	border: 1px groove purple;
+}
+
+#toggle{
+	position: absolute;
+	top: 0px;
+	right: -35px;
+	opacity:0.6;
+	filter:alpha(opacity=60);
+}
+
+@media (max-width:770px), handheld{
+
+}
+
+@media (max-width:770px), handheld and (orientation: landscape) {
+
+}
+
+
+#toggle:hover{
+	cursor:pointer;
+}

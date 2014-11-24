@@ -1,0 +1,926 @@
+{
+   "friends": {
+	   "data": [
+	   
+	   //100000304885828?fields=posts&access_token=CAACEdEose0cBAPLbCJPbOOCsxquAvIwwkFTCJnCxQurLCOgiuXpQ4vkl6bHU2N0OgBs9AMglhbZBZBm0pqUg0R2FDOVGe040N8Se90rr8aotgGH8t0iATQgzHJA0pmTXl6mT5ROpfTALua6ec5jHTADsnbL5QmdmVBymUAZBjLudXfYG4SZCMwE1nAbKiOxnfa9osZAseFAZDZD
+		//feed is a broader category
+		
+		
+		
+		
+		
+		number of feeds
+		 # of likes/comments for a feed
+		 # of 
+			 {
+				"name": "Bethany Pyche",//https://graph.facebook.com/me?fields=posts&access_token=CAACEdEose0cBAPLbCJPbOOCsxquAvIwwkFTCJnCxQurLCOgiuXpQ4vkl6bHU2N0OgBs9AMglhbZBZBm0pqUg0R2FDOVGe040N8Se90rr8aotgGH8t0iATQgzHJA0pmTXl6mT5ROpfTALua6ec5jHTADsnbL5QmdmVBymUAZBjLudXfYG4SZCMwE1nAbKiOxnfa9osZAseFAZDZD
+				"id": "15210410"
+			 },
+			 {
+				"name": "Emerson Davis",
+				"id": "176700489"
+			 },
+			 {
+				"name": "Allison Arnone",
+				"id": "501110769"
+			 },
+			 {
+				"name": "Nick Smith",
+				"id": "501411697"
+			 },
+			 {
+				"name": "Tayla Veneroso",
+				"id": "516874644"
+			 },
+			 {
+				"name": "JiSun Jessie Hong",
+				"id": "517471010"
+			 },
+			 {
+				"name": "Fangqi Gu",
+				"id": "517483057"
+			 },
+			 {
+				"name": "Lee Avital",
+				"id": "519677807"
+			 },
+			 {
+				"name": "Katie Kat Buchalski",
+				"id": "522711372"
+			 },
+			 {
+				"name": "Genesis Fuentes",
+				"id": "535316264"
+			 },
+			 {
+				"name": "Erika 'Robin' Marie",
+				"id": "537472027"
+			 },
+			 {
+				"name": "Rajib Debnath",
+				"id": "545368058"
+			 },
+			 {
+				"name": "Shane Rand",
+				"id": "546944874"
+			 },
+			 {
+				"name": "Chris Wong",
+				"id": "551423130"
+			 },
+			 {
+				"name": "Gordon Yao",
+				"id": "558135719"
+			 },
+			 {
+				"name": "Jenny Liu",
+				"id": "562259388"
+			 },
+			 {
+				"name": "Jessica Wang",
+				"id": "564725332"
+			 },
+			 {
+				"name": "Wilkins Cheng",
+				"id": "567700719"
+			 },
+			 {
+				"name": "Judie Kuo",
+				"id": "580876572"
+			 },
+			 {
+				"name": "Kris Hopkins",
+				"id": "581256950"
+			 },
+			 {
+				"name": "Matthew Buchalski",
+				"id": "582678727"
+			 },
+			 {
+				"name": "Devin Hamilton",
+				"id": "586817899"
+			 },
+			 {
+				"name": "Craig Cabrey",
+				"id": "604612746"
+			 },
+			 {
+				"name": "Randy Jay",
+				"id": "612097592"
+			 },
+			 {
+				"name": "Curt Sumpter",
+				"id": "619069843"
+			 },
+			 {
+				"name": "Gary Zhuo Wang",
+				"id": "619369372"
+			 },
+			 {
+				"name": "Bookinho Khan",
+				"id": "623417324"
+			 },
+			 {
+				"name": "Thomas Hazard Sholonka",
+				"id": "628263564"
+			 },
+			 {
+				"name": "Luke Staines",
+				"id": "632169092"
+			 },
+			 {
+				"name": "Kocsen Chung",
+				"id": "634500816"
+			 },
+			 {
+				"name": "Damian Catfishpuppy Naranjo",
+				"id": "640054331"
+			 },
+			 {
+				"name": "Tony Han",
+				"id": "642651617"
+			 },
+			 {
+				"name": "Kelly Fredette",
+				"id": "643521007"
+			 },
+			 {
+				"name": "Stephanie Lew",
+				"id": "644158989"
+			 },
+			 {
+				"name": "Minjung Byun",
+				"id": "647643822"
+			 },
+			 {
+				"name": "Edward Fong",
+				"id": "649388633"
+			 },
+			 {
+				"name": "Off Chantramangkalasri",
+				"id": "652544466"
+			 },
+			 {
+				"name": "La Brea C",
+				"id": "655420219"
+			 },
+			 {
+				"name": "Ethan Qiao",
+				"id": "660771126"
+			 },
+			 {
+				"name": "Tiffany Wu",
+				"id": "678732102"
+			 },
+			 {
+				"name": "Ashley Carrington",
+				"id": "679717830"
+			 },
+			 {
+				"name": "Timmy Chau",
+				"id": "686402585"
+			 },
+			 {
+				"name": "T\u00e1lore McBride",
+				"id": "686890477"
+			 },
+			 {
+				"name": "Peter Lam",
+				"id": "691414019"
+			 },
+			 {
+				"name": "Jason Manias",
+				"id": "692480801"
+			 },
+			 {
+				"name": "Indigo Dee",
+				"id": "692751719"
+			 },
+			 {
+				"name": "Simon Gebreyesus",
+				"id": "697957181"
+			 },
+			 {
+				"name": "Menglei Zhang",
+				"id": "702981662"
+			 },
+			 {
+				"name": "Laurent Santos",
+				"id": "712399596"
+			 },
+			 {
+				"name": "Andy Krawczyk",
+				"id": "720729387"
+			 },
+			 {
+				"name": "Taylor Evans",
+				"id": "744084616"
+			 },
+			 {
+				"name": "Sooyun Kim",
+				"id": "757783614"
+			 },
+			 {
+				"name": "Jack Wong",
+				"id": "833833554"
+			 },
+			 {
+				"name": "Jefferson Medel",
+				"id": "1007919068"
+			 },
+			 {
+				"name": "Yichen Feng",
+				"id": "1010761593"
+			 },
+			 {
+				"name": "Franklin Ning",
+				"id": "1016241155"
+			 },
+			 {
+				"name": "Michael Lippert",
+				"id": "1019024320"
+			 },
+			 {
+				"name": "Liheng Zhu",
+				"id": "1034625050"
+			 },
+			 {
+				"name": "Christina JooYeon Chang",
+				"id": "1043927666"
+			 },
+			 {
+				"name": "Jack Hor",
+				"id": "1047754800"
+			 },
+			 {
+				"name": "Kevin Larsen",
+				"id": "1062077783"
+			 },
+			 {
+				"name": "Jaden In-Kyu Kim",
+				"id": "1067130863"
+			 },
+			 {
+				"name": "Bria Lenea",
+				"id": "1070585429"
+			 },
+			 {
+				"name": "Alvin Yuen",
+				"id": "1070896399"
+			 },
+			 {
+				"name": "Shanard Green",
+				"id": "1079832106"
+			 },
+			 {
+				"name": "Sean Musgrove",
+				"id": "1093717109"
+			 },
+			 {
+				"name": "Fuji Panjali",
+				"id": "1100720768"
+			 },
+			 {
+				"name": "Shem Vasa",
+				"id": "1106748685"
+			 },
+			 {
+				"name": "Sai Saing Lin",
+				"id": "1118875869"
+			 },
+			 {
+				"name": "Shinichi Nguyen",
+				"id": "1135634843"
+			 },
+			 {
+				"name": "Harsh Patel",
+				"id": "1142398206"
+			 },
+			 {
+				"name": "\u6b27\u6c76\u51ef",
+				"id": "1145546834"
+			 },
+			 {
+				"name": "Kevin Luo",
+				"id": "1163815738"
+			 },
+			 {
+				"name": "Tyler Hubbard",
+				"id": "1174779028"
+			 },
+			 {
+				"name": "Jamila Ellis",
+				"id": "1177480317"
+			 },
+			 {
+				"name": "Steven Brown",
+				"id": "1192913458"
+			 },
+			 {
+				"name": "Johnathan Constance",
+				"id": "1201155226"
+			 },
+			 {
+				"name": "Christen Jacob",
+				"id": "1210520598"
+			 },
+			 {
+				"name": "Evan Mulvehill",
+				"id": "1215627237"
+			 },
+			 {
+				"name": "Khuong Nguyen",
+				"id": "1223300628"
+			 },
+			 {
+				"name": "Chad Grant",
+				"id": "1227540097"
+			 },
+			 {
+				"name": "Cierra Briana Col\u00f3n",
+				"id": "1227540099"
+			 },
+			 {
+				"name": "Michael Dwyer",
+				"id": "1227540101"
+			 },
+			 {
+				"name": "Ameorry Luo",
+				"id": "1244335495"
+			 },
+			 {
+				"name": "Ryan Conrad",
+				"id": "1251994969"
+			 },
+			 {
+				"name": "Nicole Cush",
+				"id": "1258416728"
+			 },
+			 {
+				"name": "David Liu",
+				"id": "1260681377"
+			 },
+			 {
+				"name": "Shengyu Tao",
+				"id": "1285055276"
+			 },
+			 {
+				"name": "Julienne Ablay",
+				"id": "1295407705"
+			 },
+			 {
+				"name": "Jun Hyung Lee",
+				"id": "1298867796"
+			 },
+			 {
+				"name": "Raymond Hu",
+				"id": "1313442554"
+			 },
+			 {
+				"name": "Jordan M.F.",
+				"id": "1319001772"
+			 },
+			 {
+				"name": "Chongwon Lee",
+				"id": "1335939963"
+			 },
+			 {
+				"name": "Haipei Han",
+				"id": "1340066561"
+			 },
+			 {
+				"name": "Robert Kelley",
+				"id": "1346452330"
+			 },
+			 {
+				"name": "Yerim Kim",
+				"id": "1352333777"
+			 },
+			 {
+				"name": "Zach Bambenek",
+				"id": "1386914167"
+			 },
+			 {
+				"name": "Susan Causey",
+				"id": "1390644075"
+			 },
+			 {
+				"name": "Fan Kane",
+				"id": "1395674117"
+			 },
+			 {
+				"name": "Eren Sen",
+				"id": "1397307848"
+			 },
+			 {
+				"name": "Christine van Oostendorp",
+				"id": "1400853031"
+			 },
+			 {
+				"name": "Cody Lezynski",
+				"id": "1413434934"
+			 },
+			 {
+				"name": "Leon Mo",
+				"id": "1426479533"
+			 },
+			 {
+				"name": "AJ Fragoso",
+				"id": "1435856696"
+			 },
+			 {
+				"name": "Naif Alkhathami",
+				"id": "1437465118"
+			 },
+			 {
+				"name": "Andre Belanger",
+				"id": "1448741414"
+			 },
+			 {
+				"name": "Keith Poon",
+				"id": "1480053144"
+			 },
+			 {
+				"name": "Ryan Law",
+				"id": "1483322364"
+			 },
+			 {
+				"name": "Yumi Kim",
+				"id": "1508240361"
+			 },
+			 {
+				"name": "Tim Duisenov",
+				"id": "1510591034"
+			 },
+			 {
+				"name": "Hongming Du",
+				"id": "1514413515"
+			 },
+			 {
+				"name": "Zaid Bilgrami",
+				"id": "1516752878"
+			 },
+			 {
+				"name": "Gabriel Lu",
+				"id": "1527855276"
+			 },
+			 {
+				"name": "Dahea Dianne Lee",
+				"id": "1529802160"
+			 },
+			 {
+				"name": "Caroline Palu",
+				"id": "1551011808"
+			 },
+			 {
+				"name": "Haibin Wen",
+				"id": "1565995234"
+			 },
+			 {
+				"name": "Douglas Dlutz",
+				"id": "1567965662"
+			 },
+			 {
+				"name": "Gene Peer",
+				"id": "1576524335"
+			 },
+			 {
+				"name": "Christina Merlino",
+				"id": "1578075004"
+			 },
+			 {
+				"name": "Juan C Ramos",
+				"id": "1590417217"
+			 },
+			 {
+				"name": "David Ren",
+				"id": "1593125089"
+			 },
+			 {
+				"name": "Shannon Coyne",
+				"id": "1598522949"
+			 },
+			 {
+				"name": "Ron Gregory Payne Jr.",
+				"id": "1600719893"
+			 },
+			 {
+				"name": "\u674e\u65e5\u708e",
+				"id": "1606647878"
+			 },
+			 {
+				"name": "Maya Andr\u00e9a",
+				"id": "1610410044"
+			 },
+			 {
+				"name": "Christine R Fredette",
+				"id": "1631256057"
+			 },
+			 {
+				"name": "Wei Lin",
+				"id": "1639998068"
+			 },
+			 {
+				"name": "Ryan-Lee Buzzell",
+				"id": "1641952953"
+			 },
+			 {
+				"name": "Tea Xu",
+				"id": "1642630278"
+			 },
+			 {
+				"name": "Vrushal Gajera",
+				"id": "1728516950"
+			 },
+			 {
+				"name": "Riley Janowicz",
+				"id": "1826380690"
+			 },
+			 {
+				"name": "Tony Seale",
+				"id": "1843538101"
+			 },
+			 {
+				"name": "Zeyar Win",
+				"id": "100000001767938"
+			 },
+			 {
+				"name": "Mike Walker",
+				"id": "100000004009287"
+			 },
+			 {
+				"name": "Lanxi Xing",
+				"id": "100000036246804"
+			 },
+			 {
+				"name": "Jaeyoung Lee",
+				"id": "100000047688875"
+			 },
+			 {
+				"name": "Charles Lundblad",
+				"id": "100000047832180"
+			 },
+			 {
+				"name": "Chen Lin",
+				"id": "100000076905435"
+			 },
+			 {
+				"name": "Calvin Tonini",
+				"id": "100000119353531"
+			 },
+			 {
+				"name": "Mai Doan",
+				"id": "100000128690101"
+			 },
+			 {
+				"name": "Bingzhi Zeng",
+				"id": "100000155492010"
+			 },
+			 {
+				"name": "Jiaqi Liu",
+				"id": "100000160200580"
+			 },
+			 {
+				"name": "Cathleen Yang",
+				"id": "100000180580197"
+			 },
+			 {
+				"name": "Yini Song",
+				"id": "100000182265769"
+			 },
+			 {
+				"name": "Zhen Zhou",
+				"id": "100000185903974"
+			 },
+			 {
+				"name": "Li Liu",
+				"id": "100000199886344"
+			 },
+			 {
+				"name": "Will Yuheng Wu",
+				"id": "100000213357484"
+			 },
+			 {
+				"name": "Vivian Chen",
+				"id": "100000226513220"
+			 },
+			 {
+				"name": "Libby Xinyue Ou",
+				"id": "100000258011089"
+			 },
+			 {
+				"name": "Carney Bernard",
+				"id": "100000259897534"
+			 },
+			 {
+				"name": "John Smort",
+				"id": "100000300626393"
+			 },
+			 {
+				"name": "Changbai Li",
+				"id": "100000303229791"
+			 },
+			 {
+				"name": "Libby Xingyue Ou",
+				"id": "100000373098220"
+			 },
+			 {
+				"name": "Jasmine Wu",
+				"id": "100000381177169"
+			 },
+			 {
+				"name": "Tim Liu",
+				"id": "100000414995945"
+			 },
+			 {
+				"name": "Kelley Danger Scanlon",
+				"id": "100000431617476"
+			 },
+			 {
+				"name": "Michael Gaba",
+				"id": "100000461743452"
+			 },
+			 {
+				"name": "Alicia Sturtevant",
+				"id": "100000474173182"
+			 },
+			 {
+				"name": "Sheena Liu",
+				"id": "100000484650439"
+			 },
+			 {
+				"name": "Zhuang Kang",
+				"id": "100000531453470"
+			 },
+			 {
+				"name": "John Smart",
+				"id": "100000584605955"
+			 },
+			 {
+				"name": "Judie Kuo",
+				"id": "100000587107085"
+			 },
+			 {
+				"name": "Frank Xu",
+				"id": "100000625602379"
+			 },
+			 {
+				"name": "Tulga Tsedev",
+				"id": "100000646746471"
+			 },
+			 {
+				"name": "Julia Alicia Kowalska",
+				"id": "100000656707012"
+			 },
+			 {
+				"name": "David Ruan",
+				"id": "100000677686103"
+			 },
+			 {
+				"name": "Joel Martinez",
+				"id": "100000783841159"
+			 },
+			 {
+				"name": "Prasath Sasitharan",
+				"id": "100000854118213"
+			 },
+			 {
+				"name": "Tiancheng Xiao",
+				"id": "100001038578422"
+			 },
+			 {
+				"name": "Christopher Sun",
+				"id": "100001049340778"
+			 },
+			 {
+				"name": "Jennifer Lin",
+				"id": "100001097016761"
+			 },
+			 {
+				"name": "Cassandra Lynn Doeinck",
+				"id": "100001110215418"
+			 },
+			 {
+				"name": "Minseo Sim",
+				"id": "100001156845553"
+			 },
+			 {
+				"name": "Kai Maslanka",
+				"id": "100001168812643"
+			 },
+			 {
+				"name": "Nicole Dest-Forrester",
+				"id": "100001172341051"
+			 },
+			 {
+				"name": "Caralyn White",
+				"id": "100001253195553"
+			 },
+			 {
+				"name": "Jason Wei",
+				"id": "100001257744727"
+			 },
+			 {
+				"name": "Eric Christenson",
+				"id": "100001268380825"
+			 },
+			 {
+				"name": "Helina Tedla",
+				"id": "100001268663857"
+			 },
+			 {
+				"name": "HyunJin Na",
+				"id": "100001441716738"
+			 },
+			 {
+				"name": "Max Desmond",
+				"id": "100001526249139"
+			 },
+			 {
+				"name": "Ivo Jiayuan Yang",
+				"id": "100001539133471"
+			 },
+			 {
+				"name": "Olivia Rao",
+				"id": "100001560396416"
+			 },
+			 {
+				"name": "Mingming Wang",
+				"id": "100001568434311"
+			 },
+			 {
+				"name": "Leo Fan",
+				"id": "100001603313745"
+			 },
+			 {
+				"name": "Xinyun Li",
+				"id": "100001613553758"
+			 },
+			 {
+				"name": "Inho Song",
+				"id": "100001691344159"
+			 },
+			 {
+				"name": "Kevin Schnupp",
+				"id": "100001692437024"
+			 },
+			 {
+				"name": "Zoe Xin",
+				"id": "100001745515055"
+			 },
+			 {
+				"name": "Angie Samsock",
+				"id": "100001840975495"
+			 },
+			 {
+				"name": "Emmy-Jane Kook",
+				"id": "100001844396625"
+			 },
+			 {
+				"name": "Michelle Hong",
+				"id": "100001868254402"
+			 },
+			 {
+				"name": "Zesen Lai",
+				"id": "100001900177252"
+			 },
+			 {
+				"name": "Miao Yihan",
+				"id": "100001903977815"
+			 },
+			 {
+				"name": "Zhenyu John Hu",
+				"id": "100001925497916"
+			 },
+			 {
+				"name": "Ramon Cruz",
+				"id": "100001967683350"
+			 },
+			 {
+				"name": "Chen Gao",
+				"id": "100002016686672"
+			 },
+			 {
+				"name": "Ashton Wai",
+				"id": "100002116840054"
+			 },
+			 {
+				"name": "Jimmy Ho",
+				"id": "100002240900862"
+			 },
+			 {
+				"name": "Xuan Guo",
+				"id": "100002367766831"
+			 },
+			 {
+				"name": "Jiao Li",
+				"id": "100002578067632"
+			 },
+			 {
+				"name": "Yu Wang",
+				"id": "100002605964624"
+			 },
+			 {
+				"name": "Tim Wong",
+				"id": "100002627857715"
+			 },
+			 {
+				"name": "Michael Negrin",
+				"id": "100002651404422"
+			 },
+			 {
+				"name": "Ashley Samsock",
+				"id": "100002776096297"
+			 },
+			 {
+				"name": "Miki Shuyue Han",
+				"id": "100002820831760"
+			 },
+			 {
+				"name": "Yiliang Peter Ye",
+				"id": "100002830611488"
+			 },
+			 {
+				"name": "Alex Miao",
+				"id": "100002831522072"
+			 },
+			 {
+				"name": "Tianyu Jerry Wang",
+				"id": "100002851814438"
+			 },
+			 {
+				"name": "Xinyi Zhang Ava",
+				"id": "100002888092630"
+			 },
+			 {
+				"name": "Ron Zheng",
+				"id": "100002908627641"
+			 },
+			 {
+				"name": "Harris Chen",
+				"id": "100003119649117"
+			 },
+			 {
+				"name": "Huang Huizhong",
+				"id": "100003162835339"
+			 },
+			 {
+				"name": "Daniel Kolbman",
+				"id": "100003286804759"
+			 },
+			 {
+				"name": "Zhaoge Peng",
+				"id": "100003642792300"
+			 },
+			 {
+				"name": "JiaMin  Chen",
+				"id": "100003729124091"
+			 },
+			 {
+				"name": "Harry  He",
+				"id": "100003765124506"
+			 },
+			 {
+				"name": "Buffal O Bill",
+				"id": "100003813681128"
+			 },
+			 {
+				"name": "Samantha Sue",
+				"id": "100003933579417"
+			 },
+			 {
+				"name": "Tomomi  Takeuchi",
+				"id": "100003982746794"
+			 },
+			 {
+				"name": "Vincent Lin",
+				"id": "100004002548642"
+			 },
+			 {
+				"name": "Chris Kang",
+				"id": "100004238468223"
+			 },
+			 {
+				"name": "Valentine  Wong",
+				"id": "100004250712205"
+			 },
+			 {
+				"name": "\u8427\u7b1b",
+				"id": "100004251552987"
+			 },
+			 {
+				"name": "Xiaoyi Lei",
+				"id": "100004262435111"
+			 },
+			 {
+				"name": "Ran  Pang",
+				"id": "100006551835823"
+			 },
+			 {
+				"name": "Jessica Li",
+				"id": "100007778076285"
+			 }
+		]
+	},
+   "id": "100000304885828"
+  }

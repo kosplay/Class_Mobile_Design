@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8"> 
+	<title>List Manager Design Document</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--jQuery-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+	<!--BOOTSTRAP online-->
+	<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+	<!--END BOOTSTRAP online-->
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container well">
+		<h1 class="col-md-9 col-md-offset-3">List Manager Design Document</h1>
+		<small class="col-md-7 col-md-offset-5">Randy Seltzer, Yumeng Sun</small>
+ 
+		<h2>Short Summary:</h2>
+		<p>An application that is intended to provide a structured lists of items(tasks) you need to accomplish, events you need to attend, or keyword you need to research on.</p>
+
+		<h2>Audience:</h2>
+		<p>The intended audience for this App is someone who feels that they would like to help better organize their own personal “To Do” list. We are mainly targeting the general public with this application due to its simplicity but yet very effective use in everyday lives. If we were to go more into depth with the project we could consider adding more functionality to better suit students.</p>
+
+		<h2>Goals of Use:</h2>
+		<p>The goal for the user is to be adequately reminded of certain chores/activities they add to the reminder list of the app. The goal is to put the user’s mind at ease when it comes to scheduling and giving a sense of reassurance to the user that they will be reminded of that important activity through a push notification and/or email.</p>
+
+		<h2>Comparison to other list/reminder apps (Competitive Analysis):</h2>
+		<ul>
+			<li>ColorNote Notepad Notes: native on Android, integrated calendar and categorized lists into different categories, color coded the categories and tasks. </li>
+			<li>Memo Pad: native on Android, in Japanese, provides search function, can show up as widget</li>
+		</ul>
+		<p>Our app is very bare minimum with functionality so it allows for all users to comfortably work through the app without getting confused or lost. Some of the other apps we found have a social networking aspect to it, which we thought was a good idea, but the way the social portion of their app was explained was that is delegated responsibility and assigned tasks to other users. That kind of functionality seemed to really target managers and higher level employees who actually have someone working under them which was not what we intend for our users. Some apps like Astrid send push notifications and emails as their “reminder” and we liked the idea of that so we decided that we are going to try and implement that into our interface.</p>
+
+		<h2>Data Storage:</h2>
+		<p>We plan to store data locally so that the user will not lose their data each time they close the app. We would like for their list to remain “loaded” each time they decide to use the app, by utilizing localstorage.</p>
+		
+		<h2>Interface Features:</h2>
+		<ul>
+			<li>A list box which stores the user’s “chores”</li>
+			<li>Check boxes to provide the option of a push notification</li>
+			<li> text field which has a small description of the action to be reminded of</li>
+			<li> A text field for the date</li>
+			<li>A text area for a more in depth description of the activity</li>
+			<li> A button which adds the strings from the two text fields and the text area to the currently existing list of reminders</li>
+			<li>A possible checkbox option for a daily reminder</li>
+		</ul>
+		
+		<h2>Usability Requirement Benchmark:</h2>
+		<ul>
+			<li>Average user can record a line of note and push that into the top of memo in 1 minute</li>
+			<li>Display to do list in 3 clicks</li>
+		</ul>
+		
+		<h2>Application Architecture:</h2>
+		<p>Web app.</p>
+		<p>Object oriented application. Provide simplicity and be prepared for more improvement and future development.</p>
+		<h3>Key Object:</h3>
+		<p><strong>List</strong> (consists of 0 or many entries)</p>
+		<p><strong>Entry</strong> (have attributes: date, description, doPushNotification, isDone, priority, type)</p>
+	</div>
+</body>
+</html>

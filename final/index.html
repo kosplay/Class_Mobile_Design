@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8"> 
+	<title>Final Project</title>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--jQuery-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	
+	<!--BOOTSTRAP online-->
+	<!-- Latest compiled and minified CSS -->
+		<!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">-->
+
+		<!-- Optional theme -->
+		<!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">-->
+
+		<!-- Latest compiled and minified JavaScript -->
+		<!-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script> -->
+	<!--END BOOTSTRAP online-->
+	
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	
+	<!--<link rel="stylesheet" href="general.css">-->
+</head>
+<body>
+<style>
+
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.link {
+  fill: none;
+  stroke: #bbb;
+}
+
+</style>
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script>
+
+var width = 960,
+    height = 500;
+
+var color = d3.scale.category20();
+
+var force = d3.layout.force()
+    .linkDistance(10)
+    .linkStrength(2)
+    .size([width, height]);
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+d3.json("../miserables.json", function(error, graph) {
+  var nodes = graph.nodes.slice(),
+      links = [],
+      bilinks = [];
+
+  graph.links.forEach(function(link) {
+    var s = nodes[link.source],
+        t = nodes[link.target],
+        i = {}; // intermediate node
+    nodes.push(i);
+    links.push({source: s, target: i}, {source: i, target: t});
+    bilinks.push([s, i, t]);
+  });
+
+  force
+      .nodes(nodes)
+      .links(links)
+      .start();
+
+  var link = svg.selectAll(".link")
+      .data(bilinks)
+    .enter().append("path")
+      .attr("class", "link");
+
+  var node = svg.selectAll(".node")
+      .data(graph.nodes)
+    .enter().append("circle")
+      .attr("class", "node")
+      .attr("r", 5)
+      .style("fill", function(d) { return color(d.group); })
+      .call(force.drag);
+
+  node.append("title")
+      .text(function(d) { return d.name; });
+
+  force.on("tick", function() {
+    link.attr("d", function(d) {
+      return "M" + d[0].x + "," + d[0].y
+          + "S" + d[1].x + "," + d[1].y
+          + " " + d[2].x + "," + d[2].y;
+    });
+    node.attr("transform", function(d) {
+      return "translate(" + d.x + "," + d.y + ")";
+    });
+  });
+});
+
+</script>
+<script>
+$(document).ready(function(){
+	$('.node').on('click',function(){
+		alert('yeah');
+		$('body').empty();
+		 var diameter = 960,
+		format = d3.format(",d"),
+		color = d3.scale.category20c();
+
+		var bubble = d3.layout.pack()
+			.sort(null)
+			.size([diameter, diameter])
+			.padding(1.5);
+
+		var svg = d3.select("body").append("svg")
+			.attr("width", diameter)
+			.attr("height", diameter)
+			.attr("class", "bubble");
+
+		d3.json("flare.json", function(error, root) {
+		  var node = svg.selectAll(".node")
+			  .data(bubble.nodes(classes(root))
+			  .filter(function(d) { return !d.children; }))
+			.enter().append("g")
+			  .attr("class", "node")
+			  .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+
+		  node.append("title")
+			  .text(function(d) { return d.className + ": " + format(d.value); });
+
+		  node.append("circle")
+			  .attr("r", function(d) { return d.r; })
+			  .style("fill", function(d) { return color(d.packageName); });
+
+		  node.append("text")
+			  .attr("dy", ".3em")
+			  .style("text-anchor", "middle")
+			  .text(function(d) { return d.className.substring(0, d.r / 3); });
+		});
+
+
+
+		d3.select(self.frameElement).style("height", diameter + "px");
+
+	});
+});
+
+// Returns a flattened hierarchy containing all leaf nodes under the root.
+function classes(root) {
+  var classes = [];
+
+  function recurse(name, node) {
+    if (node.children) node.children.forEach(function(child) { recurse(node.name, child); });
+    else classes.push({packageName: name, className: node.name, value: node.size});
+  }
+
+  recurse(null, root);
+  return {children: classes};
+}
+</script>
+	<div class="container well">
+		
+
+	</div>
+</body>
+</html>
