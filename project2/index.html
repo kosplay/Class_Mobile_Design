@@ -1,3 +1,9 @@
+<!-- Project 2 for places near RIT.  Spring 2013 -->
+<!-- it needs my JSON files.(The files are generated base on calls from www.openstreetmap.org). OpenStreetMap is a open data map powered by comminity, as an alternative solution to google map-->
+<!-- Goal: 1. demonstrate single old style json calls. 2.demonstrate an web app on mobile platform. Use "Add to Homescreen" to add this page to Homescreen (mobile only). -->
+<!-- Due to the scope of the project, put everything in one html doc. Focused on exploring techology rather than standard coding habbit. Code uncommented.-->
+<!-- @to try: could use appcache to cache the app on mobile-->
+<!-- Author: YuMeng Sun    All rights reserved.-->
 <!DOCTYPE HTML>
 <html>
   <head>
@@ -7,7 +13,9 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="OpenLayers Demo">
     <link rel="shortcut icon" sizes="196x196" href="icon.png"> 
-    <title>OpenLayers Demo</title>
+    <link rel="apple-touch-icon" href="icon.png"><!--if there are more formats of icon, specifiy size -->
+    <link rel="apple-touch-startup-image" href="/startup-image.png">
+    <title>places@RIT</title>
 	<script src="http://people.rit.edu/yxs9493/api/jquery-1.11.0.min.js"></script>
     <script src="http://www.ist.rit.edu/~jxs/classes/2014_Spring/Mobile/OpenLayers-2.13.1/OpenLayers.js" type="text/javascript"></script>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
@@ -26,15 +34,23 @@
         openStreet.map.addLayer( mapnik );
         openStreet.map.setCenter( position, zoom );
       }
+      
+     /* 
+    <!-- check for standalone
+    	if (window.navigator.standalone) {
+    // The app is running in standalone mode.
+}
+    -->
+    */
     </script>
   </head>
   <body onload="init();">
     <header>
-		<input type="button" value="Food" onclick="loadXML('food.json')" />
+		<!--<input type="button" value="Food" onclick="loadXML('food.json')" />-->
 		<input type="button" value="Gym" onclick="loadXML('gym.json')" />
-		<input type="button" value="Bank" onclick="loadXML('bank.json')" />
+		<!--<input type="button" value="Bank" onclick="loadXML('bank.json')" />-->
 		<input type="button" value="Gas Station" onclick="loadXML('gas_station.json')" />
-		<input type="button" value="Car rental" onclick="loadXML('car_rental.json')" />
+		<!--<input type="button" value="Car rental" onclick="loadXML('car_rental.json')" />-->
 		<input type="button" value="Reset" onclick="clearMap()" />
 		<img id="toggle" src="leftarrow.png" width="35" height="50">
     </header>
@@ -67,7 +83,7 @@
 	
 		function loadXML(filename)
 		{
-			//clearMap();
+			clearMap();
 			var xmlHTTP = new XMLHttpRequest();
 			try
 			{
@@ -163,13 +179,25 @@
 				}
 			}
 			*/
-			if(markerLayer !== undefined){
+			/*
+			var size = openStreet.map.layers.length;
+			alert(size);
+			for(var i=0; i<size; i++){
+				if(openStreet.map.layers[i] !== undefined && openStreet.map.layers[i].name=="Overlay" ){
+					openStreet.map.layers[i].features = [];
+            		openStreet.map.layers[i].features.length = 0;
+            		openStreet.map.layers[i].removeAllFeatures();
+				}
+			}
+			*/
+			if(typeof markerLayer !== 'undefined'){
 				markerLayer.features = [];
             	markerLayer.features.length = 0;
             	markerLayer.removeAllFeatures();
 			}
+			//openStreet.map.layers = null;
 		}
     </script>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style.css"><!--this generates an validation error-->
   </body>
 </html>
